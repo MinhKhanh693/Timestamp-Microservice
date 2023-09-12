@@ -26,7 +26,7 @@ const handleTime = (req, res) => {
   }
 };
 
-app.get('/:date', (req, res) => {
+app.get('/api/:date', (req, res) => {
   return handleTime(req, res);
 });
 
